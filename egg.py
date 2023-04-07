@@ -6,7 +6,7 @@ canvas_width = 800
 canvas_height = 400
 
 root = Tk()
-root.title("Egg Catcher")
+root.title("Egg Catcher - Test")
 c = Canvas(root, width=canvas_width, height=canvas_height, background="deep sky blue")
 c.create_rectangle(-5, canvas_height-100, canvas_width+5, canvas_height+5, fill="sea green", width=0)
 c.create_oval(-80, -80, 120, 120, fill='orange', width=0)
@@ -15,11 +15,11 @@ c.pack()
 color_cycle = cycle(["light blue", "light green", "light pink", "light yellow", "light cyan"])
 egg_width = 45
 egg_height = 55
-egg_score = 10
+egg_score = 5
 egg_speed = 500
 egg_interval = 4000
 difficulty = 0.95
-catcher_color = "blue"
+catcher_color = "red"
 catcher_width = 100
 catcher_height = 100
 catcher_startx = canvas_width / 2 - catcher_width / 2
