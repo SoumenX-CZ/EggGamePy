@@ -7,9 +7,7 @@ canvas_height = 400
 
 root = Tk()
 root.title("Egg Catcher - Test")
-c = Canvas(root, width=canvas_width, height=canvas_height, background="deep sky blue")
-c.create_rectangle(-5, canvas_height-100, canvas_width+5, canvas_height+5, fill="sea green", width=0)
-c.create_oval(-80, -80, 120, 120, fill='orange', width=0)
+c = Canvas(root, width=canvas_width, height=canvas_height, background="black")
 c.pack()
 
 color_cycle = cycle(["light blue", "light green", "light pink", "light yellow", "light cyan"])
