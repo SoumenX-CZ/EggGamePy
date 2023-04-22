@@ -6,11 +6,11 @@ canvas_width = 800
 canvas_height = 400
 
 root = Tk()
-root.title("Egg Catcher - Test")
+root.title("Egg Catcher - Game")
 c = Canvas(root, width=canvas_width, height=canvas_height, background="black")
 c.pack()
 
-color_cycle = cycle(["light blue", "light green", "light pink", "light yellow", "light cyan"])
+color_cycle = cycle(["blue", "green", "pink", "yellow", "cyan"])
 egg_width = 45
 egg_height = 55
 egg_score = 5
