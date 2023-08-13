@@ -10,7 +10,7 @@ root.title("Egg Catcher - Game")
 c = Canvas(root, width=canvas_width, height=canvas_height, background="black")
 c.pack()
 
-color_cycle = cycle(["blue", "green", "pink", "yellow", "cyan"])
+color_cycle = cycle(["blue", "green", "pink", "yellow", "cyan", "red", "orange", "purple"])
 egg_width = 45
 egg_height = 55
 egg_score = 5
