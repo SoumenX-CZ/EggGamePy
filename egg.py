@@ -1,7 +1,7 @@
 from itertools import cycle
 from random import randrange
 from tkinter import Canvas, Tk, messagebox, font
-
+#importing stufffffsdlakfjeonin
 canvas_width = 800
 canvas_height = 400
 
@@ -10,6 +10,9 @@ root.title("Egg Catcher - Game")
 c = Canvas(root, width=canvas_width, height=canvas_height, background="black")
 c.pack()
 
+#384918740drldkdroaijeddfoaeofnodnif
+#349849485JGjlkdjwoeijfaonxohdf
+#48590295845
 color_cycle = cycle(["blue", "green", "pink", "yellow", "cyan", "red", "orange", "purple"])
 egg_width = 45
 egg_height = 55
@@ -66,6 +69,12 @@ def lose_a_life():
     lives_remaining -= 1
     c.itemconfigure(lives_text, text="Lives: "+ str(lives_remaining))
 
+#some random comment 38437349
+#some random comment 38437349
+
+#some random comment 38437349
+#some random comment 38437349
+
 def check_catch():
     (catcherx, catchery, catcherx2, catchery2) = c.coords(catcher)
     for egg in eggs:
@@ -87,7 +96,9 @@ def move_left(event):
     (x1, y1, x2, y2) = c.coords(catcher)
     if x1 > 0:
         c.move(catcher, -20, 0)
+#some random comment 384373498459hefibidfaow
 
+#some random dofnaoneifma
 def move_right(event):
     (x1, y1, x2, y2) = c.coords(catcher)
     if x2 < canvas_width:
